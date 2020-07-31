@@ -1,0 +1,68 @@
+html,body{
+width: 100%;
+height: 100%;
+font-family: 'Cinzel', serif;
+background:url(pic.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+img{
+	
+	width: 510px;
+	height: 300px;
+	margin-right: 20px;
+	margin-bottom:20px;
+
+	
+	
+	
+}
+img:hover{
+	transform: scale(1.1);
+}
+h2{
+	text-align: center;
+	margin-top: 20px;
+
+}
+/* Style buttons */
+.btnEnd {
+  background-color: #AD3030; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 18px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Darker background on mouse-over */
+.btnEnd:hover {
+  background-color: #A90B40;
+}
+
+#images{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.btn{
+font-weight: 700;
+border-radius: 300px;
+text-transform: uppercase;
+}
+.btn-danger{
+background-color:#AD3030;
+border-color: #AD3030;
+}
+.btn-danger:hover{
+background-color: #A90B40;
+border:none;
+}
+.buttonstyle{
+padding: 1rem 7rem;
+}
